@@ -5,7 +5,7 @@ HTML5 display definitions
 ========================================================================== */
 
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
-
+.navbar-brand {padding: 14px; !important}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -235,7 +235,7 @@ Hero
 ========================================================================== */
 
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto; }
-.heroproject { background: url('../img/suresourceengage.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto; }
+.heroproject { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; }
 .hero h1 span { color: #1db488; display: inline-block; }
 .hero p { letter-spacing: 1px; }
