@@ -175,7 +175,7 @@ a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-
 a:hover, a:focus { color: #1db488; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
-.skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; margin-bottom: -50px;}
+.skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: 0px; margin-bottom: -60px;}
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -247,7 +247,7 @@ iPhone Section
 Portfolio
 ========================================================================== */
 /*#portfolio{background-color: #ffffff;}erase this maybe*/
-.effects { padding-left: 15px; }
+.effects { padding-left: 0px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; }
 .effects .img:first-child { margin-left: -14px; }
@@ -304,7 +304,6 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
-#servicesSlider { margin-top: 70px; }
 ul.slides li { margin-bottom: 20px; }
 /* ==========================================================================
 Waypoints
