@@ -247,7 +247,7 @@ iPhone Section
 Portfolio
 ========================================================================== */
 /*#portfolio{background-color: #ffffff;}erase this maybe*/
-.effects { padding-left: 0px; }
+.effects { padding-left: 15px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; }
 .effects .img:first-child { margin-left: -14px; }
