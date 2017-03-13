@@ -29,7 +29,7 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;}
+html, button, input, select, textarea { font-family: 'Source Sans Pro', sans-serif;}
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { margin: 0; font-family: 'Source Sans Pro', sans-serif; }
 /* ==========================================================================
@@ -40,24 +40,6 @@ Links
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
-.btn-primary{
-	background-color: #01B48C !important;
-	border: 1px solid #01B48C !important;
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin-bottom: 50px;
-  float: left;
-  font-size: 16px;
-}
-.btn-primary:hover{
-	background-color: #059172 !important;
-	border: 1px solid #059172 !important;
-}
-.btn-primary a:visited{
-	background-color: #01B48C !important;
-	border: 1px solid #01B48C !important;
-}
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -191,9 +173,9 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #1db488; text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; text-align: left;}
-h2 { font-size: 15px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px; }
-.skilllist  { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; margin-top: -50px; }/*lifts skilss up to the header in each project page and the project photos*/
+p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
+h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
+.skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: 0px; margin-bottom: -60px;}
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -204,11 +186,11 @@ h2 { font-size: 15px; color: #353535; font-weight: bold; margin-top: -27px; padd
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 110px; }
+.inner { padding-top: 120px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
-.navbar-default .navbar-nav>li>a { background-color: #ffffff; font-size: 16px !important; }
+.navbar-default .navbar-nav>li>a { font-size: 16px !important; }
 .dropdown-menu>li>a { font-size: 16px !important; }
 nav { background-color: #242830; margin-top: -1px; }
 nav ul { list-style: none; padding: 0; }
@@ -229,31 +211,32 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 .navicon { position: relative; height: 26px; }
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
-.navcolor {background-color: #ffffff;}
+.navbar-default{background-color: #ffffff !important;}
 /* ==========================================================================
 Hero
 ========================================================================== */
-
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto; }
-.heroproject { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; }
+/*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
+.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto;}
+.hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #1db488; display: inline-block; }
 .hero p { letter-spacing: 1px; }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
+.row{margin-left: 0px; margin-right: 0px;}
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro { background: #ffffff; }
-.portfoliointro { background: #ffffff; }
-.intro p { margin: 0 0 15px 0; }
+/*#intro{position: relative; z-index: 1; margin-top: 668px;}erase this mayber*/
+.intro { background: #f3f5f8; }
+.intro p { margin: 14px 0 0; }
 h1.arrow { font-size: 22px; text-transform: uppercase; color: #353535; letter-spacing: 1px; font-weight: 400; }
 /* ==========================================================================
 Features
 ========================================================================== */
-.features-wrapper, .team-wrapper { margin: 25px 0 0; }
+/*#features{background-color: #ffffff;erase this mayber*/
+.features-wrapper, .team-wrapper { margin: 52px 0 0;}
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
-.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #1db488; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #1db488; padding-top: 4px; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
@@ -263,6 +246,7 @@ iPhone Section
 /* ==========================================================================
 Portfolio
 ========================================================================== */
+/*#portfolio{background-color: #ffffff;}erase this maybe*/
 .effects { padding-left: 15px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; }
@@ -280,11 +264,6 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 /*.img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }*/
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
-.simpletunedesign img {max-width: 1000px; width: 100%; margin-bottom: 40px; }
-.shadow {-webkit-box-shadow: 0px 0px 14px 0px rgba(189,189,189,0.75);
--moz-box-shadow: 0px 0px 14px 0px rgba(189,189,189,0.75);
-box-shadow: 0px 0px 14px 0px rgba(189,189,189,0.75);}
-.marginimg{margin-top: 40px;}
 /* ==========================================================================
 CTA
 ========================================================================== */
@@ -295,11 +274,11 @@ CTA
 Team
 ========================================================================== */
 .team img { margin-bottom: 40px; }
-ul.social-buttons { list-style: none; margin: 0; padding: 0; padding-top: 8px; }
+ul.social-buttons { list-style: none; margin: 0; padding: 0; padding-top: 15px; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
-.social-btn { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #353535; font-size: 17px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus { color: #1db488; }
+.social-btn { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #353535; font-size: 20px; line-height: 40px; text-align: center; }
+.social-btn:hover, .social-btn:focus {color: #1db488; }
 .social { margin-top: 25px }
 /* ==========================================================================
 Contact
@@ -313,9 +292,9 @@ Contact
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #a1a9b0; }
+footer a { color: #a1a9b0;}
 footer { background-color: #1db488; padding: 0px 0 0px; }
-footer p { color: #fff; }
+footer p { color: #fff;}
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
@@ -325,8 +304,9 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
-#servicesSlider { margin-top: 70px; }
 ul.slides li { margin-bottom: 20px; }
 /* ==========================================================================
 Waypoints
 ========================================================================== */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
