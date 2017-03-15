@@ -52,8 +52,9 @@ h3 { font-size: 1.17em; margin: 1em 0; font-weight: 600; text-align: left;}
 h4 { font-size: 1em; margin: 1.33em 0;  font-weight: bolder; text-align: left;}
 h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
-.caption {margin-top: 20px; font-style: italic;}
+.caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
+.name {width: 270px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -175,6 +176,8 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #2aa6ff; text-decoration: none; }
+.overcolorlink { color: #ffffff; text-decoration: underline; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.overcolorlink:hover { color: #ffffff; text-decoration: underline;; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
 .skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: 0px; margin-bottom: -60px;}
@@ -218,8 +221,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 Hero
 ========================================================================== */
 /*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 80px 0; height: auto;}
-.heroproject{background-color: #2aa6ff; height: 290px}
+.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 75px 0; height: auto;}
+.heroproject{background-color: #2aa6ff; height: 300px}
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #2aa6ff; display: inline-block; }
 .hero p { letter-spacing: 1px; }
@@ -230,10 +233,11 @@ Hero
 Intro
 ========================================================================== */
 /*#intro{position: relative; z-index: 1; margin-top: 668px;}erase this mayber*/
-.intro { background: #f3f5f8; }
-.intro p { margin: 14px 0 0; }
+.intro { background: #2AA6FF; }
+.intro p { margin: 80px 0 0; color: #ffffff;}
 .introproject{background: #ffffff;}
 h1.arrow { font-size: 22px; text-transform: uppercase; color: #353535; letter-spacing: 1px; font-weight: 400; }
+.wave{width: 20px; height: 20px; margin-bottom: 2px;}
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -288,6 +292,8 @@ ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #353535; font-size: 20px; line-height: 40px; text-align: center; }
 .social-btn:hover, .social-btn:focus {color: #2aa6ff; }
+.social-btn-overcolor { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #ffffff; font-size: 20px; line-height: 40px; text-align: center; }
+.social-btn-overcolor:hover, .social-btn:focus {color: #ffffff; }
 .social { margin-top: 25px }
 /* ==========================================================================
 Contact
