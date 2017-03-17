@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sean Menne // UI+UX Designer // Oooops!!! </title>
+    <title>Sean Menne, Product Designer | Ohhhhh Nooooo</title>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,14 +19,15 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
       </head>
-      <body  style="background-color: #1db488;" id="top">
+      <body  style="background-color: #2aa6ff;" id="top">
         <header style="margin-top: 150px;" id="home">
           <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="http://seanmenne.com/"><img height="20px" width="20px" alt="Brand" src="img/navlogo.png"></a>
+      <a class="navbar-brand" href="http://seanmenne.github.io"><img height="20px" width="20px" alt="Brand" src="img/navlogo.png"></a>
+      <a href="http://seanmenne.github.io/"><p class="name">Sean Menne, Product Designer</p></a>
 
     </div>
 
@@ -47,7 +48,7 @@
   <div class="row">
     <div class="col-md-6 col-md-push-3">
       <p  style="color: #ffffff;" class="lead">Looks like this page has been moved or removed...</p>
-      <a class="btn btn-default" href="http://www.seanmenne.com" role="button">Go Home</a>
+      <a class="btn btn-default" href="http://seanmenne.github.io/" role="button">Go Home</a>
     </div>
   </div>
 </div>
