@@ -217,7 +217,6 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
 .navbar-default{background-color: #ffffff !important;}
-ul.nav.navbar-nav {float:right; !important;}
 /* ==========================================================================
 Hero
 ========================================================================== */
