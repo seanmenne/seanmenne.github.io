@@ -176,7 +176,7 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #2aa6ff; text-decoration: none; }
-.overcolorlink { color: #ffffff; text-decoration: underline; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.overcolorlink { color: #ffffff; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 .overcolorlink:hover { color: #ffffff; text-decoration: underline;; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
@@ -217,6 +217,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
 .navbar-default{background-color: #ffffff !important;}
+ul.nav.navbar-nav {float:right; !important;}
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -226,6 +227,7 @@ Hero
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #2aa6ff; display: inline-block; }
 .hero p { letter-spacing: 1px; }
+.introtext{ font-size: 26px; line-height: 36px; font-weight: 600;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 .row{margin-left: 0px; margin-right: 0px;}
@@ -237,7 +239,7 @@ Intro
 .intro p { margin: 80px 0 0; color: #ffffff;}
 .introproject{background: #ffffff;}
 h1.arrow { font-size: 22px; text-transform: uppercase; color: #353535; letter-spacing: 1px; font-weight: 400; }
-.wave{width: 20px; height: 20px; margin-bottom: 2px;}
+.wave{width: 24px; height: 24px; margin-bottom: 7px;}
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -293,7 +295,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #353535; font-size: 20px; line-height: 40px; text-align: center; }
 .social-btn:hover, .social-btn:focus {color: #2aa6ff; }
 .social-btn-overcolor { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #ffffff; font-size: 20px; line-height: 40px; text-align: center; }
-.social-btn-overcolor:hover, .social-btn:focus {color: #ffffff; }
+.social-btn-overcolor:hover, .social-btn-overcolor:focus {color: #ffffff; }
 .social { margin-top: 25px }
 /* ==========================================================================
 Contact
