@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="330 107 80 80"><defs><style>.a{clip-path:url(#b);}.b,.e{fill:none;}.b,.c{stroke:#414042;stroke-width:2px;}.c{fill:rgba(0,0,0,0);}.d{stroke:none;}</style><clipPath id="b"><rect x="330" y="107" width="80" height="80"/></clipPath></defs><g id="a" class="a"><g class="b" transform="translate(338 115)"><circle class="d" cx="32" cy="32" r="32"/><circle class="e" cx="32" cy="32" r="31"/></g><path class="c" d="M0,0V26H-11.5" transform="translate(383.017 138.632) rotate(45)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="330 437 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-skills_3);
+      }
+
+      .cls-2 {
+        fill: #4bbf61;
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0);
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-skills_3">
+      <rect x="330" y="437" width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="skills_3" data-name="skills – 3" class="cls-1">
+    <g id="Group_9" data-name="Group 9" transform="translate(330 437)">
+      <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-2" cx="32" cy="32" r="32" transform="translate(8 8)"/>
+      <path id="Path_19" data-name="Path 19" class="cls-3" d="M0,0V26H-11.5" transform="translate(53.017 31.632) rotate(45)"/>
+    </g>
+  </g>
+</svg>
