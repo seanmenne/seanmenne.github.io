@@ -6,9 +6,9 @@
       }
 
       .cls-2 {
-        fill: #d7d7d7;
-        stroke: #b5b5b5;
+        stroke: #bfbfbf;
         stroke-width: 2px;
+        fill: url(#linear-gradient);
       }
 
       .cls-3 {
@@ -20,6 +20,10 @@
         opacity: 0.098;
       }
     </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" y2="-1.781" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#6c6c6c"/>
+    </linearGradient>
     <clipPath id="clip-computer_3">
       <rect x="125" y="437" width="80" height="80"/>
     </clipPath>
