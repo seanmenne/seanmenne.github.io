@@ -29,9 +29,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Source Sans Pro', sans-serif;}
+html, button, input, select, textarea { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Source Sans Pro', sans-serif; }
+body { margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -54,7 +54,7 @@ h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 .caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
-.name {width: 270px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
+.name {width: 280px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -177,7 +177,9 @@ Global Styles
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #2aa6ff; text-decoration: none; }
 .overcolorlink { color: #ffffff; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-.overcolorlink:hover { color: #ffffff; text-decoration: underline;; }
+.overcolorlink:hover { color: #ffffff; text-decoration: underline; }
+.overcolorlink:focus { color: #ffffff; text-decoration: underline; }
+.overcolorlink:active { color: #ffffff; text-decoration: underline; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
 .skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: 0px; margin-bottom: -60px;}
@@ -226,7 +228,7 @@ Hero
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #2aa6ff; display: inline-block; }
 .hero p { letter-spacing: 1px; }
-.introtext{ font-size: 26px; line-height: 36px; font-weight: 400;}
+.introtext{ font-size: 24px; line-height: 36px; font-weight: 400;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 .row{margin-left: 0px; margin-right: 0px;}
@@ -256,7 +258,7 @@ iPhone Section
 Portfolio
 ========================================================================== */
 /*#portfolio{background-color: #ffffff;}erase this maybe*/
-.skillsimage{ height: 80px; width: 80px; margin-bottom: 10px;}
+.skillsimage{ height: 80px; width: 80px; margin-bottom: 10px; }
 .effects { padding-left: 15px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; }
