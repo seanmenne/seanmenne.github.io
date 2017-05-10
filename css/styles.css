@@ -55,6 +55,8 @@ h6 { font-size: 0.75em; margin: 2.33em 0; }
 .caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
 .name {width: 280px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
+.resumeheader{color: #2aa6ff; text-transform: uppercase;}
+.resumetext{color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -87,7 +89,7 @@ Lists
 dl, menu, ol, ul { margin: 1em 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
-menu, ol, ul { padding: 0 0 0 40px; }
+menu, ol, ul { padding: 0 0 0 40px; font-size: 15px; line-height: 1.6em;}
 /* * Corrects list images handled incorrectly in IE 7. */
 nav ul, nav ol { list-style: none; list-style-image: none; }
 /* ==========================================================================
@@ -224,7 +226,7 @@ Hero
 ========================================================================== */
 /*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 75px 0; height: auto;}
-.heroproject{background-color: #2aa6ff; height: 300px}
+.heroproject{background-color: #2aa6ff; height: 300px }
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #2aa6ff; display: inline-block; }
 .hero p { letter-spacing: 1px; }
@@ -281,6 +283,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 -moz-box-shadow: 0px 0px 14px 0px rgba(189,189,189,0.75);
 box-shadow: 0px 0px 14px 0px rgba(189,189,189,0.75);}
 .marginimg{margin-top: 40px;}
+.resumedownloadicon {height: 12px; width: 12px; margin-bottom: 2px; margin-right: 8px;}
 /* ==========================================================================
 CTA
 ========================================================================== */
