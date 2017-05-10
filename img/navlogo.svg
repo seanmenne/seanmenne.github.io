@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="54 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Logo);
+      }
+
+      .cls-2 {
+        fill: #2aa6ff;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 25px;
+        font-family: Avenir-Medium, Avenir;
+        font-weight: 500;
+      }
+    </style>
+    <clipPath id="clip-Logo">
+      <rect x="54" width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" class="cls-1">
+    <path id="Path_55" data-name="Path 55" class="cls-2" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(54)"/>
+    <text id="S" class="cls-3" transform="translate(67 29)"><tspan x="0" y="0">S</tspan></text>
+  </g>
+</svg>
