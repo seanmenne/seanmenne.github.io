@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="125 213 16 16">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="148 213 16 16">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-arrow);
+        clip-path: url(#clip-arrow_1);
       }
 
       .cls-2 {
-        fill: #2aa6ff;
+        fill: #1db488;
       }
     </style>
-    <clipPath id="clip-arrow">
-      <rect x="125" y="213" width="16" height="16"/>
+    <clipPath id="clip-arrow_1">
+      <rect x="148" y="213" width="16" height="16"/>
     </clipPath>
   </defs>
-  <g id="arrow" class="cls-1">
-    <rect id="Rectangle_292" data-name="Rectangle 292" class="cls-2" width="2" height="10" rx="1" transform="translate(125.929 221.929) rotate(-45)"/>
-    <rect id="Rectangle_293" data-name="Rectangle 293" class="cls-2" width="2" height="10" rx="1" transform="translate(138.657 220.515) rotate(45)"/>
-    <rect id="Rectangle_294" data-name="Rectangle 294" class="cls-2" width="2" height="14" rx="1" transform="translate(132 212.929)"/>
+  <g id="arrow_1" data-name="arrow – 1" class="cls-1">
+    <rect id="Rectangle_295" data-name="Rectangle 295" class="cls-2" width="2" height="10" rx="1" transform="translate(148.929 221.929) rotate(-45)"/>
+    <rect id="Rectangle_296" data-name="Rectangle 296" class="cls-2" width="2" height="10" rx="1" transform="translate(161.657 220.515) rotate(45)"/>
+    <rect id="Rectangle_297" data-name="Rectangle 297" class="cls-2" width="2" height="14" rx="1" transform="translate(155 212.929)"/>
   </g>
 </svg>
