@@ -55,7 +55,7 @@ h6 { font-size: 0.75em; margin: 2.33em 0; }
 .caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
 .name {width: 280px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
-.resumeheader{color: #2aa6ff; text-transform: uppercase;}
+.resumeheader{color: #1db488; text-transform: uppercase;}
 .resumetext{color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
@@ -177,7 +177,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-a:hover, a:focus { color: #2aa6ff; text-decoration: none; }
+a:hover, a:focus { color: #1db488; text-decoration: none; }
 .overcolorlink { color: #ffffff; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 .overcolorlink:hover { color: #ffffff; text-decoration: underline; }
 .overcolorlink:focus { color: #ffffff; text-decoration: underline; }
@@ -190,7 +190,7 @@ h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padd
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 .light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
-.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #2aa6ff; -moz-box-shadow: 0px 3px 0px 0px #2aa6ff; box-shadow: 0px 3px 0px 0px #2aa6ff; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #1db488; -moz-box-shadow: 0px 3px 0px 0px #1db488; box-shadow: 0px 3px 0px 0px #1db488; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
@@ -225,10 +225,10 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 Hero
 ========================================================================== */
 /*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 75px 0; height: auto;}
-.heroproject{background-color: #2aa6ff; height: 300px }
+.hero { background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
+.heroproject{background-color: #1db488; height: 300px }
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
-.hero h1 span { color: #2aa6ff; display: inline-block; }
+.hero h1 span { color: #1db488; display: inline-block; }
 .hero p { letter-spacing: 1px; }
 .introtext{ font-size: 24px; line-height: 36px; font-weight: 400;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
@@ -238,18 +238,19 @@ Hero
 Intro
 ========================================================================== */
 /*#intro{position: relative; z-index: 1; margin-top: 668px;}erase this mayber*/
-.intro { background: #2AA6FF; }
+.intro { background: #1db488; }
 .intro p { margin: 80px 0 0; color: #ffffff;}
 .introproject{background: #ffffff;}
 h1.arrow { font-size: 22px; text-transform: uppercase; color: #353535; letter-spacing: 1px; font-weight: 400; }
-.wave{width: 24px; height: 24px; margin-bottom: 7px;}
+.space{margin-bottom: 60px;}
+
 /* ==========================================================================
 Features
 ========================================================================== */
 /*#features{background-color: #ffffff;erase this mayber*/
 .features-wrapper, .team-wrapper { margin: 52px 0 0;}
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
-.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #2aa6ff; padding-top: 4px; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #1db488; padding-top: 4px; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
@@ -289,7 +290,7 @@ CTA
 ========================================================================== */
 .ignite-cta { background-color: #242830; padding: 70px 0; }
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
-.ignite-btn:hover, .ignite-btn:focus { color: #2aa6ff; border: solid 1px #2aa6ff; }
+.ignite-btn:hover, .ignite-btn:focus { color: #1db488; border: solid 1px #1db488; }
 /* ==========================================================================
 Team
 ========================================================================== */
@@ -298,7 +299,7 @@ ul.social-buttons { list-style: none; margin: 0; padding: 0; padding-top: 15px; 
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #353535; font-size: 20px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus {color: #2aa6ff; }
+.social-btn:hover, .social-btn:focus {color: #1db488; }
 .social-btn-overcolor { width: 30px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; display: inline-block; color: #ffffff; font-size: 20px; line-height: 40px; text-align: center; }
 .social-btn-overcolor:hover, .social-btn-overcolor:focus {color: #ffffff; }
 .social { margin-top: 25px }
@@ -309,13 +310,13 @@ Contact
 .up-btn:hover, up-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 .contact-details { margin: 70px 0; }
 .contact-details h2 { font-size: 20px; }
-.contact-details h2 span { display: block; color: #2aa6ff; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-details h2 span { display: block; color: #1db488; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
 /* ==========================================================================
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0;}
-footer { background-color: #2aa6ff; padding: 0px 0 0px; }
+footer { background-color: #1db488; padding: 0px 0 0px; }
 footer p { color: #fff;}
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
