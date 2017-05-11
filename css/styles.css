@@ -54,7 +54,7 @@ h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 .caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
-.name {width: 280px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
+.name {width: 240px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
 .resumeheader{color: #1db488; text-transform: uppercase;}
 .resumetext{color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
