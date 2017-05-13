@@ -226,11 +226,11 @@ Hero
 ==========================================================================
 /*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
 .hero { background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 100px 0 110px 0; height: auto;}
-.heroproject{background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 300px }
+.heroproject{background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 310px }
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #1db488; display: inline-block; }
 .hero p { letter-spacing: 1px; }
-.introtext{ font-size: 28px; line-height: 40px; font-weight: 400;}
+.introtext{ font-size: 31px; line-height: 44px; font-weight: 400;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 .row{margin-left: 0px; margin-right: 0px;}
