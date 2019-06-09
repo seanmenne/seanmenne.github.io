@@ -54,7 +54,7 @@ h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 .caption {margin-top: 20px; margin-bottom: 5px; font-size: 13px; color: #a0a0a0;}
 .left{text-align: left;}
-.name {width: 240px; margin-top: 13px; margin-bottom: 0px; color: #414042;}
+.name {width: 295px; margin-top: 12px; margin-bottom: 0px; color: #414042;}
 .resumeheader{color: #1db488; text-transform: uppercase;}
 .resumetext{color: #414042;}
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
@@ -195,7 +195,7 @@ h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padd
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 120px; }
+.inner { padding-top: 120px; padding-bottom: 88px;}
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -225,8 +225,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 Hero
 ==========================================================================
 /*#home{position: fixed; top: 0; width: 100%; z-index: -1; height: 100%} erase this mayber*/
-.hero { background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 100px 0 110px 0; height: auto;}
-.heroproject{background: url('../img/hero.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 310px }
+.hero { background-color:#1db488;}
+.heroproject{background-color: #1db488; }
 .hero h1 { font-size: 40px; letter-spacing: 1px; margin: 10px; margin-bottom: -20px;}
 .hero h1 span { color: #1db488; display: inline-block; }
 .hero p { letter-spacing: 1px; }
