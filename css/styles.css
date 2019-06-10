@@ -182,7 +182,7 @@ a:hover, a:focus { color: #1db488; text-decoration: none; }
 .overcolorlink:hover { color: #ffffff; text-decoration: underline; }
 .overcolorlink:focus { color: #ffffff; text-decoration: underline; }
 .overcolorlink:active { color: #ffffff; text-decoration: underline; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
+p { color: #62686c; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 16px; color: #353535; font-weight: bold; margin-top: -27px; padding-bottom: 50px;}
 .skills {font-size: 16px; color: #353535; font-weight: bold; margin-top: 0px; margin-bottom: -60px;}
 .section-padding { padding: 90px 0 100px }
