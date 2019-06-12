@@ -19,20 +19,44 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
       </head>
-      <body  style="background-color: #2aa6ff;" id="top">
+      <body  style="background-color: #1db488;" id="top">
         <header style="margin-top: 150px;" id="home">
           <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-
-      <a class="navbar-brand" href="http://seanmenne.github.io"><img height="20px" width="20px" alt="Brand" src="img/navlogo.png"></a>
-      <a href="http://seanmenne.github.io/"><p class="name">Sean Menne, UX Architect</p></a>
-
-    </div>
-
-  </div><!-- /.container-fluid -->
-</nav>
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://seanmenne.github.io"><img height="20px" width="20px" alt="Brand" src="img/navlogo.svg"></a>
+                <a href="http://seanmenne.github.io/"><p class="name"><strong>Sean Menne</strong>, Senior UX Designer</p></a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://seanmenne.github.io/officepracticumehr.html">Office Practicum EHR</a></li>
+                      <li><a href="http://seanmenne.github.io/officepracticumcopilot.html">Office Practicum cOPilot</a></li>
+                      <li><a href="http://seanmenne.github.io/suresourcelaunch.html">SureSouce Launch</a></li>
+                      <li><a href="http://seanmenne.github.io/suresourcecapture.html">SureSource Capture</a></li>
+                      <li><a href="http://seanmenne.github.io/suresourceinsight.html">SureSouce Insight</a></li>
+                      <li><a href="http://seanmenne.github.io/suresourceengage.html">SureSource Engage</a></li>
+                    </ul>
+                  </li>
+                  <li><a id="getintouch" href="#contact">Contact</a></li>
+                  <li><a href="http://seanmenne.github.io/resume.html">Résumé</a></li>
+                  <li><a href="http://seanmenne.github.io/aboutme.html">About Me</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
 
 <div class="container text-center" id="error">
   <svg height="100" width="100">
